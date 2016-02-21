@@ -1,0 +1,176 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  min-width: 490px;
+  min-height: 700px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica35", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+@media (min-width: 800px) {
+  #c-lum:after {
+    content: "|";
+  }
+}
+#name {
+  font-weight: bolder;
+  color: #51A8DD;
+}
+#name:visited {
+  color: #51A8DD;
+}
+@font-face {
+  font-family: monkey;
+  src: url('../fonts/MontereyPopsicleNF.otf');
+}
+@font-face {
+  font-family: futura;
+  src: url('../fonts/Futura.otf');
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+  zoom: 1;
+}
+nav {
+  height: 5%;
+  position: absolute;
+  top: -5%;
+  min-width: 490px;
+}
+nav ul li {
+  float: left;
+  text-align: center;
+  width: 70px;
+  margin: 0px 7px;
+  height: 40px;
+  line-height: 40px;
+  font-family: futura;
+  box-sizing: border-box;
+  transition: border 0.1s ease-out 0.1ms;
+}
+nav ul li:first-child {
+  margin-left: 0;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li:hover {
+  border-top: #51A8DD 4px solid;
+}
+#logo {
+  height: 80%;
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+#logo h1 {
+  font-family: monkey;
+  font-size: 40px;
+  display: none;
+  margin-top: 30px;
+}
+#logo .img {
+  margin: 0px auto;
+  height: 490px;
+  width: 490px;
+  background: url("../img/lumpy-bw.png");
+  z-index: -100;
+  position: relative;
+  transform-origin: center;
+}
+#logo .img .eyeskin {
+  width: 20px;
+  background: #000000;
+  position: absolute;
+  top: 195.5px;
+  left: 230px;
+}
+#logo .img .eyeskin:first-of-type {
+  top: 177px;
+  height: 21px;
+}
+#logo .img .eyeskin:last-of-type {
+  top: 214.5px;
+  height: 16px;
+}
+#logo .img #eye {
+  cursor: pointer;
+  position: absolute;
+  top: 147px;
+  left: 324px;
+  transform-origin: center;
+}
+#logo .img #eye2 {
+  cursor: pointer;
+  position: absolute;
+  top: 190px;
+  left: 226px;
+  z-index: 100;
+  transform-origin: center;
+}
+@media (max-width: 800px) {
+  h1 {
+    width: 490px;
+  }
+}
+.site-copyright {
+  position: absolute;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: #AAAAAA;
+  width: 100%;
+  bottom: -40px;
+  font-family: Futura;
+  min-width: 490px;
+}
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+  body #logo h1 {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 800px) {
+  body {
+    max-width: 1280px;
+  }
+  .logo-lantau {
+    width: 1280px;
+  }
+  .home-lantau {
+    width: 1280px;
+  }
+  .home-lantau a {
+    font-family: Futura;
+  }
+  .place-holder {
+    display: none;
+  }
+  #c-lum:after {
+    content: "|";
+  }
+  .logo-lantau {
+    margin-top: 100px;
+  }
+  .mb {
+    display: none;
+  }
+}

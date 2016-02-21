@@ -1,0 +1,217 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    min-width: 360px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica35", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    　　font-family: futura;
+    　　src: url('../fonts/Futura.otf');
+}
+
+.hr-cut {
+    border-top: 1.5px solid #dedede;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.hr-circle {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    top: auto;
+    bottom: 30px;
+    background-color: #dedede;
+}
+#name{
+    color: #000000;
+    opacity: 0.5;
+}
+#name:visited{
+    color: #000000;
+    opacity: 0.5;
+}
+.logo-lantau{
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+    line-height: 100px;
+    letter-spacing: 20px;
+    font-family: futura;
+    -webkit-transition:opacity .5s ease-in .1s;
+    transition:opacity .5s ease-in .1s;
+}
+.img-content{
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right:100px;
+    float: left;
+}
+.home-lantau{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    -webkit-transition:opacity .5s ease-in .1s;
+    transition:opacity .5s ease-in .1s;
+    margin-bottom: 40px;
+}
+.home-lantau a{
+    color: #000000;
+    font-family: helvetica35;
+}
+.home-lantau:hover{
+    opacity: 0.4;
+}
+.logo-lantau:hover{
+    opacity: 0.4;
+}
+.img:hover{
+    opacity: 0.6;
+}
+.site-copyright{
+    text-align: center;
+    font-size: 15px;
+    color: #AAAAAA;
+    float: left;
+    width: 100%;
+    font-family: "helvetica35";
+}
+.img{
+    background: url(../img/filter.png);
+    float: left;
+    margin: 20px;
+    -webkit-transition:opacity .5s ease-in .1s;
+    transition:opacity .5s ease-in .1s;
+}
+@media (max-width: 800px){
+    body{
+        width: 100%;
+    }
+    #design,#c-lum{
+        height: 30%;
+        display: block;
+    }
+    .footer-ph{
+        height: 40%;
+    }
+    .site-copyright{
+        height: 50%;
+    }
+}
+#img1{
+    width: 320px;
+    height: 320px;
+    background-position: 0px 0px;
+}
+#img2{
+    width: 320px;
+    height: 320px;
+    background-position: -320px 0px;
+}
+#img3{
+    width: 320px;
+    height: 320px;
+    background-position: -640px 0px;
+}
+#img4{
+    width: 320px;
+    height: 320px;
+    background-position: 0px -320px;
+}
+#img5{
+    width: 320px;
+    height: 320px;
+    background-position: -320px -320px;
+}
+#img6{
+    width: 320px;
+    height: 320px;
+    background-position: -640px -320px;
+}
+#img7{
+    width: 320px;
+    height: 200px;
+    background-position: 0px -640px;
+}
+#img8{
+    width: 320px;
+    height: 320px;
+    background-position: -320px -640px;
+}
+#img9{
+    width: 320px;
+    height: 480px;
+    background-position: -640px -640px;
+}
+@media (min-width: 800px){
+    body{
+        max-width: 1280px;
+        min-width: 1280px;
+    }
+    .logo-lantau{
+        width: 1280px;
+    }
+    .home-lantau{
+        width: 1280px;
+    }
+    .home-lantau a{
+        font-family: Futura;
+    }
+    .place-holder{
+        display: none;
+    }
+    .site-copyright{
+        margin-top: 80px;
+        padding-bottom:60px;
+    }
+    #c-lum:after{
+        content: "|";
+    }
+    .logo-lantau{
+        margin-top: 100px;
+    }
+    .mb{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    body{
+        width: 100%;
+    }
+    .pc{
+        display: none;
+    }
+    .logo-lantau{
+        height: 65%;
+        width: 100%;
+        letter-spacing: 10px;
+    }
+    .placeholder{
+        height: 15%;
+        width: 100%;
+    }
+    .home-lantau{
+        height: 20%;
+    }
+    .img-content{
+        width: 100%;
+        padding:0px;
+
+    }
+    .img{
+        margin:auto;
+        width: 100%;
+        height:auto;
+        float: none;
+    }
+}
+
