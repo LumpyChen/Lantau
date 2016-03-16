@@ -10,10 +10,18 @@ body {
 }
 body {
   position: relative;
+  overflow: hidden;
 }
 a {
   text-decoration: none;
   color: #000000;
+}
+#load-wrap {
+  text-align: center;
+  margin-top: 100px;
+}
+#content-wrap {
+  display: none;
 }
 @media (min-width: 800px) {
   #c-lum:after {
@@ -52,6 +60,7 @@ nav {
   position: absolute;
   top: -5%;
   min-width: 490px;
+  z-index: 1000;
 }
 nav ul li {
   float: left;
@@ -62,7 +71,8 @@ nav ul li {
   line-height: 40px;
   font-family: futura;
   box-sizing: border-box;
-  transition: border 0.1s ease-out 0.1ms;
+  transition: border 0.3s ease-out 0.1ms;
+  z-index: 100;
 }
 nav ul li:first-child {
   margin-left: 0;
@@ -103,7 +113,7 @@ nav ul li:hover {
 }
 #logo .img .eyeskin:first-of-type {
   top: 177px;
-  height: 21px;
+  height: 19px;
 }
 #logo .img .eyeskin:last-of-type {
   top: 214.5px;

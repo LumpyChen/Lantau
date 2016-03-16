@@ -66,6 +66,7 @@ $(function(){
         $('nav').animate({'top':'0px'},4000)
         $('.site-copyright').animate({'bottom':'0px'},4000);
         getGoing();
+        //alert('!!!!');
     });
 
 })

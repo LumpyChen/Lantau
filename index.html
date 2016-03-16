@@ -1,3 +1,6 @@
+<!doctype html>
+</html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,36 +9,43 @@
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/index.css">
 </head>
-
 <body>
-    <nav>
-        <ul class="cf">
-            <li><a href="http://www.zhihu.com/people/irvingchen">Zhihu.</a></li>
-            <li><a href="http://github.com/LumpyChen">Github.</a></li>
-            <li><a href="http://www.lumpychen.com/blog/">Blog.</a></li>
-            <li><a href="http://www.lumpychen.com/cv/">CV.</a></li>
-            <li><a href="http://www.lumpychen.com/lab/">Lab.</a></li>
-            <li><a href="http://www.lumpychen.com/shutter/">Shutter.</a></li>
-        </ul>
-    </nav>
 
-    <div id="logo">
-        <div class="img">
-            <img id="eye" src="img/eye.png" alt="">
-            <img id="eye2" src="img/eye2.png" alt="">
-            <div class="eyeskin"></div>
-            <div class="eyeskin"></div>
+    <div id="load-wrap">
+        <img id="load" src="img/loading.gif">
+    </div>
+
+    <div id="content-wrap">
+        <nav>
+            <ul class="cf">
+                <li><a href="http://www.zhihu.com/people/irvingchen">Zhihu.</a></li>
+                <li><a href="http://github.com/LumpyChen">Github.</a></li>
+                <li><a href="http://www.lumpychen.com/blog/">Blog.</a></li>
+                <li><a href="http://www.lumpychen.com/cv/">CV.</a></li>
+                <li><a href="http://www.lumpychen.com/lab/">Lab.</a></li>
+                <li><a href="http://www.lumpychen.com/shutter/">Shutter.</a></li>
+            </ul>
+        </nav>
+
+        <div id="logo">
+            <div class="img">
+                <img id="eye" src="img/eye.png" alt="">
+                <img id="eye2" src="img/eye2.png" alt="">
+                <div class="eyeskin"></div>
+                <div class="eyeskin"></div>
+            </div>
+            <h1>As yet there has been something that keeps me RAGEFUL.</h1>
         </div>
-        <h1>As yet there has been something that keeps me RAGEFUL.</h1>
+
+
+        <div class="site-copyright">
+            <span id="c-lum">© 2014 Lumpychen </span>
+            <span id="design">designed by&nbsp;<a href="{{ site.url }}" id="name">Lumpy Chen</a></span>
+        </div>
     </div>
-
-
-    <div class="site-copyright">
-        <span id="c-lum">© 2014 Lumpychen </span>
-        <span id="design">designed by&nbsp;<a href="{{ site.url }}" id="name">Lumpy Chen</a></span>
-    </div>
-
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="assets/script/load.js"></script>
     <script src="assets/script/eye.js"></script>
+    <script src="assets/script/test.js"></script>
 </body>
 </html>

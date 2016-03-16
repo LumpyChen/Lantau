@@ -12,12 +12,23 @@ html, body {
 
 body{
   position: relative;
+  overflow:hidden;
 }
 
 a{
   text-decoration: none;
   color: #000000;
 }
+
+#load-wrap{
+  text-align: center;
+  margin-top: 100px;
+}
+
+#content-wrap{
+  display: none;
+}
+
 
 @media (min-width: 800px){
   #c-lum:after{
@@ -62,6 +73,7 @@ nav{
   position: absolute;
   top: -5%;
   min-width: 490px;
+  z-index: 1000;
   ul{
     li{
       float: left;
@@ -72,7 +84,8 @@ nav{
       line-height: 40px;
       font-family: futura;
       box-sizing: border-box;
-      transition: border .1s ease-out .1ms;
+      transition: border .3s ease-out .1ms;
+      z-index: 100;
 
       &:first-child{
         margin-left: 0;
@@ -114,7 +127,7 @@ nav{
       left: 230px;
       &:first-of-type{
         top: 177px;
-        height: 21px;
+        height: 19px;
       }
       &:last-of-type{
         top: 214.5px;
