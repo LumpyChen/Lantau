@@ -1,18 +1,21 @@
 {
-  "name": "个人网站",
+  "name": "Lantau",
   "authors": [
     "Chen Yiwen <lumpychen@outlook.com>"
   ],
-  "description": "",
-  "main": "",
+  "description": "My personal page.",
+  "main": "index.html",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/LumpyChen/Lantau",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
+  ],
+  "keywords": [
+    "Normal"
   ]
 }
