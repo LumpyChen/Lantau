@@ -22,8 +22,9 @@ var PageNav = function(a$PosId,s$NavClass,Header){
         })
 
         // Circle$对象和Nav$对象的数组
-
-        a$PosId.map(function ($id) {
+        console.log(a$PosId)
+        a$PosId.forEach(function ($id) {
+            console.log($('#' + $id).offset())
             self.aPosition.push($('#' + $id).offset().top)
         })
 
@@ -91,7 +92,7 @@ var PageNav = function(a$PosId,s$NavClass,Header){
                     self.circleChange('curve',3)
                     Header.fadeWhite();
                     break;
-                default:
+                case pos>=self.aPosition[4]:
                     self.circleChange('curve',4)
                     Header.addWhite();
                     break;

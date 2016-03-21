@@ -1,3 +1,10 @@
+#content-wrap {
+  opacity: 0;
+}
+#load-wrap {
+  text-align: center;
+  margin-top: 100px;
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -40,7 +47,7 @@ a {
   color: #fff;
 }
 #name {
-  color: #51A8DD;
+  color: #005CAF;
   font-weight: bolder;
 }
 button {
@@ -215,7 +222,7 @@ header nav .menu-btn ul li a {
   height: 20px;
   float: left;
   width: 20px;
-  border: 3px #51A8DD solid;
+  border: 3px #005CAF solid;
   border-radius: 10px;
   left: 10px;
 }
@@ -226,7 +233,7 @@ header nav .menu-btn ul li a {
   height: 6px;
   width: 6px;
   border-radius: 4px;
-  background-color: #51A8DD;
+  background-color: #005CAF;
   transform-origin: center;
   transform: scale(1);
   transition: transform 0.4s ease-out 0.1s;
@@ -278,7 +285,7 @@ header nav .menu-btn ul li a {
 #banner .inner button {
   margin: 125px auto;
   border: none;
-  background: #51A8DD;
+  background: #005CAF;
   font-family: Futura;
   font-size: 23px;
   letter-spacing: 1px;
@@ -290,7 +297,7 @@ header nav .menu-btn ul li a {
   right: 0;
 }
 #banner .inner button:hover {
-  background-color: #2174a7;
+  background-color: #002649;
 }
 #banner .inner .more {
   margin-top: 280px;
@@ -365,10 +372,10 @@ header nav .menu-btn ul li a {
   float: right;
 }
 #one .wrapper .icon-group:last-of-type .display:last-child .head {
-  border-bottom-color: #51A8DD;
+  border-bottom-color: #005CAF;
 }
 #one .wrapper .icon-group:last-of-type .display:last-child .content {
-  background-color: #51A8DD;
+  background-color: #005CAF;
   overflow: visible;
 }
 #one .wrapper .icon-group:last-of-type .display:last-child .content img {
@@ -386,7 +393,7 @@ header nav .menu-btn ul li a {
   animation-play-state: running;
 }
 #one .wrapper .icon-group:last-of-type .display:last-child .foot {
-  border-top-color: #51A8DD;
+  border-top-color: #005CAF;
   z-index: -100;
 }
 #one .wrapper .icon-group:last-of-type .display:first-child {
@@ -510,7 +517,7 @@ header nav .menu-btn ul li a {
   width: 100%;
 }
 #three {
-  background-color: #51A8DD;
+  background-color: #005CAF;
   padding: 80px 0;
   min-width: 800px;
   color: #0C0C0C;
@@ -614,7 +621,7 @@ header nav .menu-btn ul li a {
   right: 100px;
   display: block;
   border: none;
-  background: #51A8DD;
+  background: #005CAF;
   font-family: Futura;
   font-size: 20px;
   color: #ffffff;
@@ -622,7 +629,7 @@ header nav .menu-btn ul li a {
   padding: 10px 60px;
 }
 #four button:hover {
-  background-color: #2174a7;
+  background-color: #002649;
 }
 .site-footer {
   padding: 0px;
