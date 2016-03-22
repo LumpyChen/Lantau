@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10ddc417-45a5-4851-8428-e01da8bb9571" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/index.css" afterPath="$PROJECT_DIR$/assets/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/index.less" afterPath="$PROJECT_DIR$/assets/index.less" />
-    </list>
+    <list default="true" id="10ddc417-45a5-4851-8428-e01da8bb9571" name="Default" comment="" />
     <ignored path="Lantau.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
