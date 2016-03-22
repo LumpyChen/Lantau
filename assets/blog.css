@@ -30,15 +30,15 @@
   src: url('../fonts/NOVA.otf');
 }
 @font-face {
-  font-family: Futura;
-  src: url('../fonts/Futura.otf');
+  font-family: Lyon;
+  src: url('../fonts/lyon.ttf');
 }
 body,
 html {
   min-width: 800px;
   min-height: 400px;
   position: relative;
-  font-family: "Futura", "Helvetica35", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lyon", "Helvetica35", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
 }
 a {
   height: inherit;
@@ -286,7 +286,7 @@ header nav .menu-btn ul li a {
   margin: 125px auto;
   border: none;
   background: #005CAF;
-  font-family: Futura;
+  font-family: Lyon;
   font-size: 23px;
   letter-spacing: 1px;
   color: #ffffff;
@@ -622,7 +622,7 @@ header nav .menu-btn ul li a {
   display: block;
   border: none;
   background: #005CAF;
-  font-family: Futura;
+  font-family: Lyon;
   font-size: 20px;
   color: #ffffff;
   height: 50px;
